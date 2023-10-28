@@ -41,7 +41,7 @@ html {
   -moz-tab-size: 4;
   /* 3 */
   -o-tab-size: 4;
-     tab-size: 4;
+  tab-size: 4;
   /* 3 */
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
@@ -80,7 +80,7 @@ Add the correct text decoration in Chrome, Edge, and Safari.
 
 abbr:where([title]) {
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 /*
@@ -426,8 +426,8 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 [type='text'],[type='email'],[type='url'],[type='password'],[type='number'],[type='date'],[type='datetime-local'],[type='month'],[type='search'],[type='tel'],[type='time'],[type='week'],[multiple],textarea,select {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   background-color: #fff;
   border-color: #6b7280;
   border-width: 1px;
@@ -489,7 +489,7 @@ select {
   background-size: 1.5em 1.5em;
   padding-right: 2.5rem;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
 }
 
 [multiple] {
@@ -499,23 +499,23 @@ select {
   background-size: initial;
   padding-right: 0.75rem;
   -webkit-print-color-adjust: unset;
-          color-adjust: unset;
+  color-adjust: unset;
 }
 
 [type='checkbox'],[type='radio'] {
   -webkit-appearance: none;
-     -moz-appearance: none;
-          appearance: none;
+  -moz-appearance: none;
+  appearance: none;
   padding: 0;
   -webkit-print-color-adjust: exact;
-          color-adjust: exact;
+  color-adjust: exact;
   display: inline-block;
   vertical-align: middle;
   background-origin: border-box;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   flex-shrink: 0;
   height: 1rem;
   width: 1rem;
@@ -688,7 +688,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .size-selector input:checked + label {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 61 87 / var(--tw-bg-opacity));
+  background-color: rgb(219 255 218 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -698,7 +698,7 @@ h1, h2, h3, h4, h5, h6 {
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(253 61 87 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(219 255 218 / var(--tw-ring-opacity));
 }
 
 .input-box {
@@ -735,7 +735,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .input-box:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(253 61 87 / var(--tw-border-opacity));
+  border-color: rgb(219 255 218 / var(--tw-border-opacity));
   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(0px + var(--tw-ring-offset-width)) var(--tw-ring-color);
   box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
@@ -1111,9 +1111,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .select-none {
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .grid-cols-1 {
@@ -1333,7 +1333,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .border-primary {
   --tw-border-opacity: 1;
-  border-color: rgb(253 61 87 / var(--tw-border-opacity));
+  border-color: rgb(219 255 218 / var(--tw-border-opacity));
 }
 
 .border-gray-100 {
@@ -1363,7 +1363,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(253 61 87 / var(--tw-bg-opacity));
+  background-color: rgb(219 255 218 / var(--tw-bg-opacity));
 }
 
 .bg-gray-800 {
@@ -1418,12 +1418,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .object-contain {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .object-cover {
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .p-1 {
@@ -1652,7 +1652,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-white {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-gray-700 {
@@ -1682,7 +1682,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .text-primary {
   --tw-text-opacity: 1;
-  color: rgb(253 61 87 / var(--tw-text-opacity));
+  color: rgb(219 255 218 / var(--tw-text-opacity));
 }
 
 .text-yellow-400 {
@@ -1707,7 +1707,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .line-through {
   -webkit-text-decoration-line: line-through;
-          text-decoration-line: line-through;
+  text-decoration-line: line-through;
 }
 
 .placeholder-gray-400::-moz-placeholder {
@@ -1801,12 +1801,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
-  color: rgb(253 61 87 / var(--tw-text-opacity));
+  color: rgb(219 255 218 / var(--tw-text-opacity));
 }
 
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  color: rgb(0  0 0 / var(--tw-text-opacity));
 }
 
 .hover\:text-gray-500:hover {
@@ -1830,7 +1830,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .focus\:border-primary:focus {
   --tw-border-opacity: 1;
-  border-color: rgb(253 61 87 / var(--tw-border-opacity));
+  border-color: rgb(219 255 218 / var(--tw-border-opacity));
 }
 
 .focus\:outline-none:focus {
@@ -1862,7 +1862,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .focus\:ring-primary:focus {
   --tw-ring-opacity: 1;
-  --tw-ring-color: rgb(253 61 87 / var(--tw-ring-opacity));
+  --tw-ring-color: rgb(219 255 218 / var(--tw-ring-opacity));
 }
 
 .group:hover .group-hover\:visible {
@@ -1915,7 +1915,7 @@ h1, h2, h3, h4, h5, h6 {
 
   .dark\:hover\:text-white:hover {
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity));
+    color: rgb(0 0 0 / var(--tw-text-opacity));
   }
 
   .dark\:focus\:ring-blue-800:focus {
