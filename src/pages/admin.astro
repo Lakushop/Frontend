@@ -1,13 +1,13 @@
 ---
 /* STATIC CMS ADMIN PAGE */
-import { menu, page, settings, post, project, product } from "@cms/index.mjs";
-import logo from "@icons/logo.svg";
-import newsIcon from "@icons/news.svg";
-import pageIcon from "@icons/page.svg";
-import menuIcon from "@icons/menu.svg";
-import settingsIcon from "@icons/settings.svg";
-import portfolioIcon from "@icons/portfolio.svg";
-import shopIcon from "@icons/shop.svg";
+import { menu, page, settings, post, project, product } from "@frontend/cms/index.mjs";
+import logo from "@frontend/icons/logo.svg";
+import newsIcon from "@frontend/icons/news.svg";
+import pageIcon from "@frontend/icons/page.svg";
+import menuIcon from "@frontend/icons/menu.svg";
+import settingsIcon from "@frontend/icons/settings.svg";
+import portfolioIcon from "@frontend/icons/portfolio.svg";
+import shopIcon from "@frontend/icons/shop.svg";
 
 const lang = import.meta.env.WEBSITE_LANGUAGE;
 const url = Astro.site;
@@ -21,8 +21,8 @@ const config = {
     name: "test-repo",
   },
   search: "true",
-  media_folder: "src/assets",
-  public_folder: "/src/assets",
+  media_folder: "frontend/src/assets",
+  public_folder: "frontend//src/assets",
   media_library: {
     max_file_size: 2012000,
     folder_support: true,
