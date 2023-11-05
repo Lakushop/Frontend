@@ -14,6 +14,14 @@ import vue from "@astrojs/vue";
 /** @type {import('astro-m2dx').Options} */
 import prefetch from "@astrojs/prefetch";
 import compress from "astro-compress";
+
+import { defineConfig } from 'astro/config'
+
+export default defineConfig({
+  site: 'https://lakushop.github.io',
+  base: '/frontend',
+})
+
 const m2dxOptions = {
   exportComponents: true,
   unwrapImages: true,
